@@ -21,6 +21,7 @@ class LoginScreen extends StatelessWidget {
       decoration: InputDecoration(
         hintText: 'you@example.com',
         labelText: 'Email Address',
+        errorText: 'Invalid Email',
       ),
     );
   }
@@ -38,7 +39,7 @@ class LoginScreen extends StatelessWidget {
   Widget submitButton() {
     return RaisedButton(
       child: Text('Login'),
-      color: Colors.blue[200],
+      color: Colors.blue[300],
       onPressed: () {},
     );
   }
